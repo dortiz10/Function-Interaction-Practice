@@ -2,6 +2,7 @@
 from random import randint, random
 from function2 import newFunction
 from function3 import *
+from function4 import *
 #   Interactions Between Functions Practice #1
 # Create a function (throw_dice) that "throws" two random dice and returns its results (the function MUST RETURN TWO VALUES AS A RESULT, both of which must be between 1 and 6, randomly).
 
@@ -43,6 +44,7 @@ newFunction()
 
 # Create a function called average() that can receive as an argument the list returned by the previous function, and that calculates the average of its values. It should return the result (a float), without printing it.
 
+print(my_list)
 
 
 
@@ -58,5 +60,6 @@ newFunction()
 # If the coin comes up "Tails", luck should print this message to the user: "List will self-destruct", and return said list as empty list = [ ].
 
 # If the coin comes up "Heads", it should print to the screen: "List was saved" and return the list intact.
+secret()
 
 # Hint: Use the random library's choice method to choose an element at random from a sequence.
