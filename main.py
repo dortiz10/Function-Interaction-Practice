@@ -1,4 +1,5 @@
 #####################################################################################################
+from indefiniteArguments import *
 from random import randint, random
 from function2 import newFunction
 from function3 import *
@@ -63,3 +64,5 @@ print(my_list)
 secret()
 
 # Hint: Use the random library's choice method to choose an element at random from a sequence.
+
+sum_squares()
