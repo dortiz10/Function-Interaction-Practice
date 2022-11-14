@@ -4,6 +4,8 @@ from random import randint, random
 from function2 import newFunction
 from function3 import *
 from function4 import *
+from indefiniteArguments import *
+from dynamic_functions import *
 #   Interactions Between Functions Practice #1
 # Create a function (throw_dice) that "throws" two random dice and returns its results (the function MUST RETURN TWO VALUES AS A RESULT, both of which must be between 1 and 6, randomly).
 
@@ -61,8 +63,21 @@ print(my_list)
 # If the coin comes up "Tails", luck should print this message to the user: "List will self-destruct", and return said list as empty list = [ ].
 
 # If the coin comes up "Heads", it should print to the screen: "List was saved" and return the list intact.
-secret()
+# secret()
 
 # Hint: Use the random library's choice method to choose an element at random from a sequence.
 
-sum_squares()
+# sum_squares()
+
+# absolute_sum()
+# personal_numbers()
+three = all_positives(numbers)
+print(three)
+
+numbers = range(0,1000)
+total = 0
+two = sum_less(total, numbers)
+print(two)
+
+equal = count_even(numbs)
+print(equal)
